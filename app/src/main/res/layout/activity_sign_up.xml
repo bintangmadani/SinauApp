@@ -18,12 +18,12 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="50dp"
-            android:layout_marginEnd="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="65dp"
             android:text="@string/Hey"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
-            android:textSize="32sp"
+            android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,30 +83,35 @@
                 android:textColor="#B9BAC0" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
-            android:id="@+id/btn_signup"
-            style="@style/StandardButton"
-            android:layout_marginTop="20dp"
-            android:text="@string/sign_up"
-            android:textAllCaps="true"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/til_password"
-            app:layout_constraintStart_toStartOf="@+id/til_password"
-            app:layout_constraintTop_toBottomOf="@+id/til_password" />
-
         <TextView
             android:id="@+id/txt_login"
             style="@style/LinkText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="textStart"
+            android:textColor="@color/white"
             android:layout_marginTop="8dp"
             android:clickable="true"
             android:focusable="true"
             android:text="@string/have_an_account_login"
-            app:layout_constraintEnd_toEndOf="@+id/btn_signup"
-            app:layout_constraintStart_toStartOf="@+id/btn_signup"
-            app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.201"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/til_password" />
+
+        <Button
+            android:id="@+id/btn_createaccount"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:background="#75CEE1"
+            android:text="@string/create_an_account"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_login" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
