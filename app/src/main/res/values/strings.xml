@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SinauApp</string>
+    <string name="Hey">Hey,\nCreate Your \nAccount Now</string>
+    <string name="name">Name</string>
+    <string name="email_no_telephone">Email/No Telephone</string>
+    <string name="password">Password</string>
+    <string name="have_an_account_login">Have an Account?, Login</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
