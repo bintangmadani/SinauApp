@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".GetStartedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imgICget"
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:background="@drawable/iconget"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="48dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_marginTop="88dp"
+            android:background="@drawable/radius_getback">
+
+            <TextView
+                android:id="@+id/txtDiscover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/discover_your_next_skill"
+                android:textColor="@color/purple"
+                android:textSize="60px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtLearn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/learn_anything_you_want"
+                android:textColor="@color/purple"
+                android:textSize="60px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDiscKecil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="@string/discover_the_things_you_want_to"
+                android:textColor="@color/gray"
+                android:textSize="30px" />
+
+            <TextView
+                android:id="@+id/txtLearnKecil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="learn and grow with them"
+                android:textColor="@color/gray"
+                android:textSize="30px" />
+
+            <Button
+                android:id="@+id/btnGetStarted"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/radius_getstarted"
+                android:text="Get Started" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

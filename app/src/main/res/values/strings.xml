@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SinauApp</string>
+    <string name="Hey">Hey,</string>
+    <string name="login_now">Login Now</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="username_email">Username/email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="login">Login</string>
+    <string name="discover_your_next_skill">Discover your next skill</string>
+    <string name="discover_the_things_you_want_to">Discover the things you want to</string>
+    <string name="learn_anything_you_want">learn anything you want</string>
 </resources>
