@@ -10,19 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SinauApp">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true" />
         <activity
-            android:name=".OnBoardingActivity"
+            android:name=".LoginActivity"
             android:exported="true" />
         <activity
             android:name=".GetStartedActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".ProfileActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".OnBoardingActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

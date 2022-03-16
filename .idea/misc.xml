@@ -17,11 +17,13 @@
         <entry key="app/src/main/res/drawable/radius_student_id.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/drawable/radius_text_input.xml" value="0.2518518518518518" />
         <entry key="app/src/main/res/drawable/rounded_courner.xml" value="0.2518518518518518" />
-        <entry key="app/src/main/res/layout/activity_get_started.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_get_started.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.14739583333333334" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20471014492753623" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.1911231884057971" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.14739583333333334" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.20471014492753623" />
         <entry key="app/src/main/res/layout/fragment_school.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_school_information.xml" value="0.18614130434782608" />

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/purple">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,56 +61,56 @@
                 android:textColor="@color/white"/>
         </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="15dp"
-        tools:ignore="MissingConstraints">
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/txtINPuser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="65dp">
-
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtUserEmail"
-                android:layout_width="280dp"
-                android:layout_height="58dp"
-                android:hint="@string/username_email"
-                android:background="@drawable/radius_text_input"/>
-
-        </com.google.android.material.textfield.TextInputLayout>
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/txtINPpass"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="65dp"
+            android:orientation="vertical"
             android:layout_marginTop="15dp"
-            app:endIconMode="password_toggle">
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtINPuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp">
 
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtPW"
-                android:layout_width="280dp"
-                android:layout_height="58dp"
-                android:hint="@string/password"
-                android:background="@drawable/radius_text_input" />
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtUserEmail"
+                    android:layout_width="280dp"
+                    android:layout_height="58dp"
+                    android:hint="@string/username_email"
+                    android:background="@drawable/radius_text_input"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/txtINPpass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:layout_marginTop="15dp"
+                    app:endIconMode="password_toggle">
 
 
-        </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtPW"
+                        android:layout_width="280dp"
+                        android:layout_height="58dp"
+                        android:hint="@string/password"
+                        android:background="@drawable/radius_text_input" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
-
-    </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple"
-    tools:context=".GetStartedActivity">
+    tools:context=".GetStartedActivity"
+    android:background="@color/purple">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -65,17 +65,18 @@
             android:layout_gravity="center"
             android:layout_marginTop="48dp"/>
 
-            <Button
-                android:id="@+id/btnGetStarted"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:background="@drawable/radius_getstarted"
-                android:text="@string/get_started" />
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/radius_getstarted"
+            android:text="@string/get_started" />
 
     </LinearLayout>
 
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
