@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolFragment">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="288dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/radius_informations">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtSchoolINF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:text="@string/school_informations"
+                    android:textColor="@color/purple"
+                    android:textSize="60px"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/akaricon" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/txtNpsn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/npsn"
+                    android:textSize="15dp"
+                    android:textColor="@color/purple"
+                    android:layout_marginEnd="203dp"/>
+
+                <TextView
+                    android:id="@+id/txtCodeNpsn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_699987"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/txtSchoolName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/school_name"
+                    android:textSize="15dp"
+                    android:textColor="@color/purple"
+                    android:layout_marginEnd="34dp"/>
+
+                <TextView
+                    android:id="@+id/txtSekolahIDN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smk_idn_boarding_school"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/txtLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"
+                    android:textSize="15dp"
+                    android:textColor="@color/purple"
+                    android:layout_marginEnd="122dp"/>
+
+                <TextView
+                    android:id="@+id/txtBogor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bogor_indonesia"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txtPrincipal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="146dp"
+                    android:text="@string/principal"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txtSekolah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mr_sulaiman"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/txtTeacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/teacher"
+                    android:textSize="15dp"
+                    android:textColor="@color/purple"
+                    android:layout_marginEnd="122dp"/>
+
+                <TextView
+                    android:id="@+id/txtGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mrs_siti_badriyah"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/txtCuriculum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/curiculum"
+                    android:textSize="15dp"
+                    android:textColor="@color/purple"
+                    android:layout_marginEnd="150dp"/>
+
+                <TextView
+                    android:id="@+id/txtCambridge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cambridge"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/txtAccreditation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accreditation"
+                    android:textSize="15dp"
+                    android:textColor="@color/purple"
+                    android:layout_marginEnd="182dp"/>
+
+                <TextView
+                    android:id="@+id/txtA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a"
+                    android:textColor="@color/purple"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </FrameLayout>

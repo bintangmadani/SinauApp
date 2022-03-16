@@ -10,4 +10,10 @@
     <color name="purple">#6C5DED</color>
     <color name="gray">#B9BAC0</color>
     <color name="colorPrimary">#75CEE1</color>
+    <color name="ungu">#7780F0</color>
+    <color name="ungu_muda">#B9B2F7</color>
+    <color name="kuning">#FFDA78</color>
+    <color name="pink">#FF9292</color>
+    <color name="biru_muda">#D8EFED</color>
+    <color name="abu_abu">#DADADA</color>
 </resources>
